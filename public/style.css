@@ -1,0 +1,58 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+#search-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#keyword {
+  padding: 10px;
+  border: 1px solid #ccc;
+  flex-grow: 1;
+}
+
+#scrape-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+#results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.product-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.product-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.product-rating,
+.product-reviews {
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
